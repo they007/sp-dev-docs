@@ -225,7 +225,16 @@ A Boolean value that specifies whether to return query suggestions for prefix ma
     
 http:// _server_/_api/search/suggest?querytext='sharepoint'&amp;fprefixmatchallterms=false
   
+### SourceID
+
+The result source ID to use for executing the search query.  
     
+    
+ **Sample GET request**
+  
+    
+    
+http:// _server_/_api/search/suggest?querytext='sharepoint'&amp;sourceid='8413cd39-2156-4e00-b54d-11efd9abdb89'    
     
 
 ## Additional resources
